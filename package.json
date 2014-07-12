@@ -2,7 +2,7 @@
   "name": "s3-signed-request",
   "version": "0.0.1",
   "author": "Nathan Hoad",
-  "description": "Generate a signed s3 request for direct uploading",
+  "description": "Generate a signed S3 request for direct uploading",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
@@ -16,5 +16,12 @@
     "amazon",
     "aws"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanhoad/s3-signed-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanhoad/s3-signed-request/issues"
+  },
   "license": "MIT"
 }
