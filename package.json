@@ -1,0 +1,20 @@
+{
+  "name": "s3-signed-request",
+  "version": "0.0.1",
+  "author": "Nathan Hoad",
+  "description": "Generate a signed s3 request for direct uploading",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "should": "*"
+  },
+  "keywords": [
+    "s3",
+    "amazon",
+    "aws"
+  ],
+  "license": "MIT"
+}
